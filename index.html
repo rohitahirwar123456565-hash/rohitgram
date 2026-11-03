@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROHITGRAM</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090610;color:white;font-family:Arial,sans-serif}
+header{padding:20px;background:#120b20;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:bold;color:#b77aff}
+button{border:0;border-radius:20px;padding:10px 16px;background:#762be8;color:white;font-size:15px}
+nav{display:flex;justify-content:space-around;padding:15px;background:#160d25;position:sticky;bottom:0}
+nav a{color:#d9c4ff;text-decoration:none}
+main{max-width:550px;margin:auto;padding:15px}
+h2{color:#c69aff}
+.story{display:flex;gap:15px;overflow:auto;padding:12px 0}
+.circle{min-width:58px;height:58px;border-radius:50%;background:linear-gradient(45deg,#762be8,#e05bca);display:grid;place-items:center;font-weight:bold}
+.post{background:#171020;border:1px solid #342044;border-radius:16px;margin:18px 0;overflow:hidden}
+.posttop,.actions{padding:14px}
+.photo{height:260px;background:linear-gradient(135deg,#4b168b,#170d28,#a34de0);display:grid;place-items:center;font-size:48px}
+.actions{display:flex;gap:15px;align-items:center}
+p{color:#ddd}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">ROHITGRAM</div>
+<button onclick="alert('Welcome to ROHITGRAM!')">＋ Create</button>
+</header>
+<main>
+<h2>Stories</h2>
+<div class="story">
+<div class="circle">You</div>
+<div class="circle">R</div>
+<div class="circle">A</div>
+<div class="circle">S</div>
+<div class="circle">M</div>
+</div>
+<h2>Home Feed</h2>
+<div class="post">
+<div class="posttop">👤 Rohit Ahirwar</div>
+<div class="photo">💜</div>
+<div class="actions">
+<button onclick="this.innerText='❤️ Liked'">♡ Like</button>
+<button onclick="alert('Comments coming soon!')">Comment</button>
+</div>
+<p style="padding:0 14px">Welcome to ROHITGRAM! 💜</p>
+</div>
+<div class="post">
+<div class="posttop">👤 ROHITGRAM</div>
+<div class="photo">✨</div>
+<p style="padding:0 14px">Share your moments with the world.</p>
+</div>
+</main>
+<nav>
+<a href="#">🏠 Home</a>
+<a href="#">🔍 Search</a>
+<a href="#">🎬 Reels</a>
+<a href="#">👤 Profile</a>
+</nav>
+</body>
+</html>
